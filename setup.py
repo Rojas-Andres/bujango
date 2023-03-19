@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='bujango',
-    version='0.2.1',
+    version='0.2.2',
     packages=find_packages(),
     install_requires=[
         'asgiref==3.6.0','sqlparse==0.4.3'

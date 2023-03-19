@@ -6,7 +6,7 @@ from functools import total_ordering
 from itertools import dropwhile
 from pathlib import Path
 
-import django
+import bujango
 from bujango.conf import settings
 from bujango.core.exceptions import ImproperlyConfigured
 from bujango.core.files.temp import NamedTemporaryFile

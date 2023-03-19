@@ -1,4 +1,4 @@
-import django
+import bujango
 from bujango.core.handlers.asgi import ASGIHandler
 
 

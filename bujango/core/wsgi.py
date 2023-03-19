@@ -1,4 +1,4 @@
-import django
+import bujango
 from bujango.core.handlers.wsgi import WSGIHandler
 
 

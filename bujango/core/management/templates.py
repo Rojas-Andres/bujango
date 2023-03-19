@@ -8,7 +8,7 @@ import tempfile
 from importlib import import_module
 from urllib.request import build_opener
 
-import django
+import bujango
 from bujango.conf import settings
 from bujango.core.management.base import BaseCommand, CommandError
 from bujango.core.management.utils import handle_extensions, run_formatters
