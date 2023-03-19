@@ -1,0 +1,6 @@
+asgiref==3.6.0
+sqlparse==0.4.3
+bujango
+pytest==6.2.5
+isort==5.11.4
+black==23.1.0
