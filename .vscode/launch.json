@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        // Pytest
+        {
+            "name": "Pytest Launcher",
+            "type": "python",
+            "request": "launch",
+            // windows
+            "program": "${workspaceFolder}/venv/Scripts/pytest.exe",
+            // linux
+            // "program": "${workspaceFolder}/.venv/bin/pytest",
+            "args": [
+                "${workspaceFolder}/docs_src/example_1",
+                "-vv"
+            ],
+            "justMyCode": true,
+        }
+    ]
+}
