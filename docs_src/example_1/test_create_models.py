@@ -30,6 +30,10 @@ class TestModelsCreate(TestCase):
         users = models.User.objects.all()
         self.assertEqual(len(users), 10)
 
+    def test_get_users_icontains(self):
+        users = models.User.objects.filter(name__icontains="test")
+        self.assertEqual(len(users), 10)
+
     @classmethod
     def tearDownClass(cls):
         # delete migrations folder
