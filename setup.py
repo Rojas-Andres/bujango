@@ -3,11 +3,12 @@ from pathlib import Path
 
 here = Path(__file__).resolve().parent
 
-long_description = open('README.rst').read(),
+with open("README.rst", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 setup(
     name='bujango',
-    version='0.2.6',
+    version='0.2.7',
     packages=find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
