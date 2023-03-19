@@ -1,0 +1,6 @@
+from bujango.apps import AppConfig
+
+
+class {{ camel_case_app_name }}Config(AppConfig):
+    default_auto_field = 'bujango.db.models.BigAutoField'
+    name = '{{ app_name }}'
